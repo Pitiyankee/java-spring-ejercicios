@@ -1,10 +1,10 @@
-# Prácticas de Java y Spring: inyección de dependencias
+# Ejercicios de Java y Spring: inyección de dependencias
 
-Colección de prácticas en **Java 17** con **Maven** y **Spring Framework** (`spring-context` 7.0.9) sobre inyección de dependencias, ámbitos de los beans y configuración del contenedor. Cada práctica es un proyecto Maven independiente que compila por sí solo.
+Colección de ejercicios en **Java 17** con **Maven** y **Spring Framework** (`spring-context` 7.0.9) sobre inyección de dependencias, ámbitos de los beans y configuración del contenedor. Cada ejercicio es un proyecto Maven independiente que compila por sí solo.
 
-## Prácticas
+## Ejercicios
 
-| Práctica | Qué trabaja | Proyecto principal |
+| Ejercicio | Qué trabaja | Proyecto principal |
 |---|---|---|
 | `ud3-1-01-cafeteria` | Inversión de control: la misma aplicación escrita con y sin Spring, y `@Component` | `con-spring`, `sin-spring` |
 | `ud3-2-01-entregas` | Arquitectura en capas (modelo, repositorio, servicio) y paso gradual de objetos creados a mano a beans de Spring | `entregas` |
@@ -16,11 +16,11 @@ Colección de prácticas en **Java 17** con **Maven** y **Spring Framework** (`s
 | `ud3-5-04-carrito` | Catálogo compartido y carritos independientes con `prototype` | `tienda` |
 | `ud3-6-02-dados` | Configuración con `@Configuration` y `@Bean` | `dados` |
 | `ud3-7-01-tienda` | Datos de configuración en un fichero `.properties` con `@PropertySource` y `@Value` | `tienda` |
-| `ud3-9-01-bicicletas` | Práctica integradora: `@PostConstruct`, `@Primary` y `@Qualifier`, ámbito `prototype`, `Random` como bean y datos en `.properties` | `bicicletas` |
+| `ud3-9-01-bicicletas` | Ejercicio integrador: `@PostConstruct`, `@Primary` y `@Qualifier`, ámbito `prototype`, `Random` como bean y datos en `.properties` | `bicicletas` |
 
 ## Carpetas `etapas`
 
-Varias prácticas incluyen una carpeta `etapas` con la evolución del código paso a paso. Las etapas cuyo nombre termina en `falla` reproducen **a propósito** el error que Spring lanza cuando hay más de un bean candidato, para mostrar por qué hacen falta `@Primary` o `@Qualifier`, que se introducen en la etapa siguiente.
+Varios ejercicios incluyen una carpeta `etapas` con la evolución del código paso a paso. Las etapas cuyo nombre termina en `falla` reproducen **a propósito** el error que Spring lanza cuando hay más de un bean candidato, para mostrar por qué hacen falta `@Primary` o `@Qualifier`, que se introducen en la etapa siguiente.
 
 ## Cómo ejecutarlo
 
@@ -38,8 +38,8 @@ La clase principal de cada proyecto se llama `Aplicacion` y está en el paquete 
 
 ```
 ud3-<tema>-<número>-<nombre>/
-├── <proyecto>/        Versión final de la práctica (pom.xml + src/main/java)
-└── etapas/            Evolución paso a paso (en las prácticas que la incluyen)
+├── <proyecto>/        Versión final del ejercicio (pom.xml + src/main/java)
+└── etapas/            Evolución paso a paso (en los ejercicios que la incluyen)
 ```
 
 ## Autor

@@ -15,8 +15,8 @@ public class Aplicacion {
         ListadoEntregas listado = contexto.getBean(ListadoEntregas.class);
 
         // Llegan dos entregas
-        servicio.registrar("Ana", "Práctica 1");
-        servicio.registrar("Luis", "Práctica 1");
+        servicio.registrar("Ana", "Tarea 1");
+        servicio.registrar("Luis", "Tarea 1");
 
         // Mostramos el informe y el listado
         informe.mostrar();

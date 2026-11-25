@@ -8,8 +8,8 @@ public class Aplicacion {
         Informe informe = new Informe();
 
         // Llegan dos entregas
-        servicio.registrar("Ana", "Práctica 1");
-        servicio.registrar("Luis", "Práctica 1");
+        servicio.registrar("Ana", "Tarea 1");
+        servicio.registrar("Luis", "Tarea 1");
 
         // Mostramos el informe
         informe.mostrar();
