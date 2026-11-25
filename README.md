@@ -15,6 +15,8 @@ Colección de prácticas en **Java 17** con **Maven** y **Spring Framework** (`s
 | `ud3-5-02-baraja` | Beans de ámbito `prototype` y `@PostConstruct` aplicados a una baraja y una mano | `cartas` |
 | `ud3-5-04-carrito` | Catálogo compartido y carritos independientes con `prototype` | `tienda` |
 | `ud3-6-02-dados` | Configuración con `@Configuration` y `@Bean` | `dados` |
+| `ud3-7-01-tienda` | Datos de configuración en un fichero `.properties` con `@PropertySource` y `@Value` | `tienda` |
+| `ud3-9-01-bicicletas` | Práctica integradora: `@PostConstruct`, `@Primary` y `@Qualifier`, ámbito `prototype`, `Random` como bean y datos en `.properties` | `bicicletas` |
 
 ## Carpetas `etapas`
 
